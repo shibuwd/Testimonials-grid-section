@@ -46,6 +46,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - Shibu Sarkar
+- Shibu Sarkar
 - Frontend Mentor - [@Shibu77](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@Shivam_Shibu](https://www.twitter.com/yourusername)
