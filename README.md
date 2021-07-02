@@ -12,7 +12,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
