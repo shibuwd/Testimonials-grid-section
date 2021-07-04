@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 
 :root {
-        /*primary color  */
-        --moderate-violet: hsl(263, 55%, 52%);
-        --very-dark-grayish-blue: hsl(217, 19%, 35%);
-        --very-dark-blackish-blue: hsl(219, 29%, 14%);
-        --white: hsl(0, 0%, 100%);
-        /* neutral color */
-        --light-gray: hsl(0, 0%, 81%);
-        --light-grayish-blue: hsl(210, 46%, 95%);
+    /*primary color  */
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    /* neutral color */
+    --light-gray: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
 }
 
 *,
@@ -31,12 +31,12 @@ body {
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     background-color: var(--light-grayish-blue);
-
 }
 
 /* main section */
 .container {
     margin: 4rem auto;
+    /* display: grid; */
 }
 .testimonial-container {
     margin: 4.5rem auto;
@@ -47,11 +47,13 @@ body {
     border-radius: .6rem;
     padding: 1.8rem;
     margin: 1.5rem;
+    -webkit-box-shadow: 0px 5px 15px 0px hsl(216, 5%, 80%);
+    box-shadow: 0px 5px 15px 0px hsl(216, 5%, 80%);
 }
 .purple {
     background-image: url(./img/bg-pattern-quotation.svg) ;
     background-repeat: no-repeat;
-    background-position: 90% 0%;
+    background-position: 80% 0%;
 }
 .intro {
     display: flex;
@@ -108,46 +110,49 @@ p {
 .blackish-blue {
     background-color: var(--very-dark-blackish-blue);
 }
-
-  .attribution {
-      font-size: 11px;
-      text-align: center;
-  }
-
-  .attribution a {
-      color: hsl(228, 45%, 44%);
-  }
-
 /* end main section */
+
+/* attribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+/* end attribution */
 
 /* media query */
   @media only screen and (min-width: 1150px) {
       .container {
-          display: grid;
-          /* margin: 0 2rem; */
-      }
+         display: grid;
+    } 
+    .testimonial {
+        padding: 2.2rem;
+        margin: .8rem;
+    }
       .testimonial-container {
-          grid-template-columns: repeat(4, minmax(270px, 1fr ));
-          grid-template-rows: auto auto;
-          grid-template-areas:
-              "daniel daniel jonathan kira"
-              "Jeanette patrick patrick kira";       
-              margin: 3.5rem;
-      }
+        grid-template-columns: repeat(4, minmax(250px, 1fr ));
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        "daniel daniel jonathan kira"
+        "Jeanette patrick patrick kira";
+        margin: 2.5rem;
+    } 
       .daniel {
-          grid-area: daniel;
-      }
+     grid-area: daniel;
+    }
       .Jonathan {
-          grid-area: jonathan;
-      }
+     grid-area: jonathan;
+    }
       .Jeanette {
-          grid-area: jeanette;
-      }
+     grid-area: jeanette;
+    }
       .patrick {
-          grid-area: patrick;
-      }
+     grid-area: patrick;
+    }
       .kira {
-          grid-area: kira;
-      }
+     grid-area: kira;
+    }
   }
   /* end media query */
