@@ -23,9 +23,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-design.jpg)
+![](./Screen-Shot/ss1.png)
+![](./Screen-Shot/ss2.png)
 
 ### Links
+https://testimonials-grid-section-tan.vercel.app/
 
 ### Built with
 
